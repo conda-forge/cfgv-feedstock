@@ -1,8 +1,8 @@
 {% set name = "cfgv" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "733aa2f66b5106af32d271336a571610b9808e868de0ad5690d9d5155e5960c5" %}
+{% set hash_value = "d1791caa9ff5c0c7bce80e7ecc1921752a2eb7c2463a08ed9b6c96b85a2f75aa" %}
 
 package:
   name: '{{ name|lower }}'

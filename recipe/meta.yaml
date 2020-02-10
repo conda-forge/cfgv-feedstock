@@ -1,8 +1,8 @@
 {% set name = "cfgv" %}
-{% set version = "2.0.1" %}
+{% set version = "3.0.0" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "edb387943b665bf9c434f717bf630fa78aecd53d5900d2e05da6ad6048553144" %}
+{% set hash_value = "04b093b14ddf9fd4d17c53ebfd55582d27b76ed30050193c14e560770c5360eb" %}
 
 package:
   name: '{{ name|lower }}'
@@ -32,6 +32,7 @@ test:
 about:
   home: https://github.com/asottile/cfgv
   license: MIT
+  license_file: LICENSE
   license_family: MIT
   # no license_file yet: https://github.com/asottile/cfgv/pull/3
   # license_file: ''

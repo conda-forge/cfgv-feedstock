@@ -21,8 +21,9 @@ build:
 requirements:
   build:
     - pip
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - six
 
 test:
@@ -34,8 +35,6 @@ about:
   license: MIT
   license_file: LICENSE
   license_family: MIT
-  # no license_file yet: https://github.com/asottile/cfgv/pull/3
-  # license_file: ''
   summary: Validate configuration and produce human readable error messages.
   description: 'Validate configuration and produce human readable error messages.'
 

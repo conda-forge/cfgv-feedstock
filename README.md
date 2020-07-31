@@ -5,7 +5,7 @@ Home: https://github.com/asottile/cfgv
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Validate configuration and produce human readable error messages.
 

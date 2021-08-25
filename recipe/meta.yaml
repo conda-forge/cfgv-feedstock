@@ -1,5 +1,5 @@
 {% set name = "cfgv" %}
-{% set version = "3.3.0" %}
+{% set version = "3.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9e600479b3b99e8af981ecdfc80a0296104ee610cab48a5ae4ffd0b668650eb1
+  sha256: f5a830efb9ce7a445376bb66ec94c638a9787422f96264c98edc6bdeed8ab736
 
 build:
   number: 0
